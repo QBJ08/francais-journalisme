@@ -1,0 +1,122 @@
+body{
+    margin:0 auto;
+    background-color: rgb(201, 201, 201);
+}
+
+#carte
+{width: 2000px;
+margin:0 auto;
+background-color: white;
+align-content: center}
+
+/* Texte de la page */
+
+.big-title {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+
+p {
+    margin-left: 35px;
+    font-size: 25px;
+}
+
+#carte .hat {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#carte h2 {
+    font-size: 30px;
+    margin-left: 35px;
+}
+
+.img-gamer {
+    text-align: center;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 200px;
+    margin-left: 30px;
+    background-color: black;
+}
+
+nav.nav li {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 200px;
+    margin-left: 30px;
+    background-color: black;
+}
+
+section.top-page {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    height: 6vh;
+    padding: 25px;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+footer.footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+footer.footer img {
+    size: 10px;
+}
+
+section.bottom-page {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    height: 6vh;
+    padding: 25px;
+}
+
+nav.nav-bottom {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 200px;
+    margin-left: 30px;
+    background-color: black;
+    text-align: center;
+}
+
+nav.nav-bottom li {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 200px;
+    margin-left: 60px;
+    background-color: black;
+    text-align: center;
+}
+
+.CGU {
+    width: 50px;
+}
+
+.PDC {
+    width: 50px;
+}
+

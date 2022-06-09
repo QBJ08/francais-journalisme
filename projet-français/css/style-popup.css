@@ -1,0 +1,82 @@
+.place-popup {
+    text-align: center;
+}
+
+/* .box { 
+    width: 320px;
+    margin: 10rem auto;
+    padding-top: 10rem;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 2.5rem;
+    border: 2px solid #ddd;
+    border-radius: 20px/50px;
+    align-items: center;
+}
+
+.button {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #fff;
+    border: 2px solid #12fcf8;
+    border-radius: 20px/50px;
+    cursor: pointer;
+    background: rgba(10, 149, 17, 0.25);
+    transition: all 0.3s ease-out;
+    align-items: center;
+}
+
+.button:hover {
+    background: #12fcf8;
+    color: #333;
+}*/
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.7);
+    transition: opacity .4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.popup {
+    margin: 6rem auto;
+    padding: 2rem;
+    border-radius: 5px;
+    background: #fff;
+    width: 40%;
+    position: relative;
+    transition: all 0.45s ease-in-out;
+}
+
+.oui {
+    cursor: pointer;
+}
+
+.paramètres {
+    cursor: pointer;
+}
+
+.place-popup .cross {  
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: 0.3 ease;
+    color: black;
+}
+
+.place-popup .cross:hover {
+    color: red;
+}
+

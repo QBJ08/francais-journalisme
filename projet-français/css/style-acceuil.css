@@ -1,0 +1,109 @@
+body{
+    margin:0 auto;
+    background-color: rgb(201, 201, 201);
+}
+
+#carte {
+    width: 2000px;
+    margin:0 auto;
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+    text-align: center;
+}
+
+
+
+
+/* Texte de la page */
+
+h1 {
+    font-size: 35px;
+    width: 20;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+
+}
+
+
+header.header img {
+    width: 75px;
+}
+
+section.top-page{
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    height: 6vh;
+    padding: 25px;
+}
+
+.big-title {
+    color: black;
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+    color: black;
+}
+
+
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 200px;
+    margin-left: 30px;
+    background-color: black;
+}
+
+nav.nav li {
+    color: aliceblue;
+}
+
+footer.footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+footer.footer img {
+    size: 10px;
+}
+
+section.bottom-page {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    height: 6vh;
+    padding: 25px;
+}
+
+nav.nav-bottom {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 200px;
+    margin-left: 30px;
+    background-color: black;
+    text-align: center;
+}
+
+nav.nav-bottom li {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 200px;
+    margin-left: 30px;
+    background-color: black;
+    text-align: center;
+}
+
+.CGU {
+    width: 50px;
+}
